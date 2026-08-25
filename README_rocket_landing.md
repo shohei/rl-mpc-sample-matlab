@@ -78,7 +78,7 @@ Total reward: 53.8
 
 - `Training Progress`（学習曲線）
 - `Rocket Landing Trajectory`（高度・速度・スロットルの時系列）
-- `Rocket Landing Animation`（着陸アニメーション）
+- `Rocket Landing Animation`（着陸アニメーション。表示と同時に、スクリプトと同じフォルダに `rocket_landing_animation.gif` として保存されます）
 
 ## 詰まった点・設計上の工夫
 
