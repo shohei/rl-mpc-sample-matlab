@@ -24,8 +24,8 @@ dqn_cartpole_demo
 
 ## グリッドワールド版との違い
 
-| | `rl_gridworld_demo.m` | `dqn_cartpole_demo.m` |
-|---|---|---|
+| 項目 | `rl_gridworld_demo.m` | `dqn_cartpole_demo.m` |
+| --- | --- | --- |
 | 状態空間 | 離散（5×5マスのセル） | 連続（`[x, dx, theta, dtheta]` の4次元） |
 | 行動空間 | 離散（上下左右） | 離散（カートに -10N / +10N の力を加える） |
 | 価値関数 | テーブル（`rlTable`） | ニューラルネットワーク（既定の全結合ネットワーク） |
