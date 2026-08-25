@@ -39,7 +39,7 @@ rl_gridworld_demo
 
 ## 実行結果の例
 
-```
+```text
 --- Training complete ---
 Episodes run: 200
 Final average reward: 3.90
